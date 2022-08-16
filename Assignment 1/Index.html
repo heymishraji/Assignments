@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.101.0">
+    <title>Headers · Bootstrap v5.2</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/headers/">
+
+    
+
+    
+
+<link href="bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="main.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="p-3 text-bg-dark" style="background-color: RGBA(65,33,10,var(--bs-bg-opacity,1))!important"  style="position:fixed;">
+        <div class="container">
+          
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <img src="logo cut.png" alt="bootstrap-logo" width="48px" height="48px">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+              <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+            </a>
+    
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="Index.html" class="nav-link px-2 text-secondary" >Dashboard</a></li>
+              <li><a href="Favourite.html" class="nav-link px-2 text-white">Favourites</a></li>
+              <li><a href="Authors.html" class="nav-link px-2 text-white">Authors</a></li>
+              <li><a href="https://openlibrary.org/" class="nav-link px-2 text-white">Recommended</a></li>
+            </ul>
+    
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search" >
+              <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search" style="background-color: White!important;">
+            </form>
+           
+            <div class="text-end">
+              <button type="button" class="btn btn-outline-light me-2"  onclick="window.location.href='Login.html'">Login</button>
+              <button type="button" class="btn btn-warning" onclick="window.location.href='Signup.html'">Sign-up</button>
+            </div>
+          </div>
+        </div>
+      </header>
+    
+      <div class="px-3 py-4 my-4 text-center" style="background:url('Hero cover Black.png') no-repeat  ">
+        <img class="d-block mx-auto mb-4" src="Circle logo.png" alt="" width="72" height="72">
+        <h1 class="display-5 fw-bold" style="color: white;">Book Store</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4" style="color: white;">We are here with most popular books around the world for our community of reader. Find your reading taste from our huge librabry of book and also get custom BOOK RECOMMENDATION according to your taste from your last reads.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Explore</button>
+            
+            
+          </div>
+        </div>
+      </div>
+    
+      <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+        <h1 class="display-6 fw-bold">Top Picks</h1>
+        <p class="fs-6 text-muted">Here are some of the top picks of this week (based on users activity)</p>
+      </div>
+    </header>
+  
+    <main>
+      <div class="row row-cols-1 row-cols-md-4 mb-4 text-center " >
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm " >
+            <div class="card-header py-1" >
+              <h4 class="my-0 fw-normal" >The Subtle Art of Not Giving a Fuck</h4>
+              <p class="fs-7 text-muted">Mark Manson</p>
+            </div>
+            <div class="card-body" >
+              <img class="img-thumbnail" src="https://covers.openlibrary.org/b/id/8231990-M.jpg" style="margin-bottom: 6%">
+              <button type="button" class="w-50 btn btn-lg btn-outline-primary">Buy Now</button><button type="button" class="w-25 btn btn-lg btn-outline-primary" style="margin-left:6% ;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+              </svg></button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm" >
+            <div class="card-header py-1" >
+              <h4 class="my-0 fw-normal" >Atomic Habits</h4>
+              <p class="fs-7 text-muted">James Clear</p>
+            </div>
+            <div class="card-body" >
+              <img class="img-thumbnail" src="https://covers.openlibrary.org/b/id/12539702-M.jpg" style="margin-bottom: 6%;">
+              <button type="button" class="w-50 btn btn-lg btn-outline-primary">Buy Now</button><button type="button" class="w-25 btn btn-lg btn-outline-primary" style="margin-left:6% ;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+              </svg></button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm" >
+            <div class="card-header py-1" >
+              <h4 class="my-0 fw-normal" >It Starts with Us</h4>
+              <p class="fs-7 text-muted">Colleen Hoover</p>
+            </div>
+            <div class="card-body" >
+              <img class="img-thumbnail" src="https://covers.openlibrary.org/b/id/12749873-M.jpg" style="margin-bottom: 6%;">
+              <button type="button" class="w-50 btn btn-lg btn-outline-primary">Buy Now</button><button type="button" class="w-25 btn btn-lg btn-outline-primary" style="margin-left:6% ;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+              </svg></button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm" >
+            <div class="card-header py-1" >
+              <h4 class="my-0 fw-normal" >The Love Hypothesis</h4>
+              <p class="fs-7 text-muted">Ali Hazelwood</p>
+            </div>
+            <div class="card-body" >
+              <img class="img-thumbnail" src="https://covers.openlibrary.org/b/id/10601402-M.jpg" style="margin-bottom: 6%;">
+              <button type="button" class="w-50 btn btn-lg btn-outline-primary">Buy Now</button><button type="button" class="w-25 btn btn-lg btn-outline-primary" style="margin-left:6% ;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+              </svg></button>
+            </div>
+          </div>
+        </div>
+        </div>
+      </main>
+      <main>
+        <div class="row row-cols-1 row-cols-md-4 mb-4 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm" >
+              <div class="card-header py-1" >
+                <h4 class="my-0 fw-normal" >Rich Dad, Poor Dad</h4>
+                <p class="fs-7 text-muted">Robert T. Kiyosaki, Sharon L. Lechter, Tim Wheeler</p>
+              </div>
+              <div class="card-body" >
+                <img  class="img-thumbnail" src="https://covers.openlibrary.org/b/id/8315302-M.jpg?default=%27" style="margin-bottom: 6%;">
+                <button type="button" class="w-50 btn btn-lg btn-outline-primary">Buy Now</button><button type="button" class="w-25 btn btn-lg btn-outline-primary" style="margin-left:6% ;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                </svg></button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm" >
+              <div class="card-header py-1" >
+                <h4 class="my-0 fw-normal" >Think and grow rich</h4>
+                <p class="fs-7 text-muted">Napoleon Hill</p>
+              </div>
+              <div class="card-body" >
+                <img class="img-thumbnail" src="https://covers.openlibrary.org/b/id/10528858-M.jpg?default=%27" style="margin-bottom: 6%;">
+                <button type="button" class="w-50 btn btn-lg btn-outline-primary">Buy Now</button><button type="button" class="w-25 btn btn-lg btn-outline-primary" style="margin-left:6% ;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                </svg></button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm" >
+              <div class="card-header py-1" >
+                <h4 class="my-0 fw-normal" >The Art of Seduction</h4>
+                <p class="fs-7 text-muted">Robert Greene</p>
+              </div>
+              <div class="card-body" >
+                <img class="img-thumbnail" src="https://covers.openlibrary.org/b/id/402627-M.jpg?default=%27https://openlibrary.org/images/icons/avatar_book.png%27" style="margin-bottom: 6%;">
+                <button type="button" class="w-50 btn btn-lg btn-outline-primary">Buy Now</button><button type="button" class="w-25 btn btn-lg btn-outline-primary" style="margin-left:6% ;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                </svg></button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm" >
+              <div class="card-header py-1" >
+                <h4 class="my-0 fw-normal" >Harry Potter and the order of the Phoenix</h4>
+                <p class="fs-7 text-muted">J.K. Rowling</p>
+              </div>
+              <div class="card-body" >
+                <img class="img-thumbnail" src="https://covers.openlibrary.org/b/id/10523466-M.jpg?default=%27https://openlibrary.org/images/icons/avatar_book.png%27" style="margin-bottom: 6%;">
+                <button type="button" class="w-50 btn btn-lg btn-outline-primary">Buy Now</button><button type="button" class="w-25 btn btn-lg btn-outline-primary" style="margin-left:6% ;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                </svg></button>
+              </div>
+            </div>
+          </div>
+        </main>  
+
+      <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="Index.html" class="nav-link px-2 text-muted">Dashboard</a></li>
+            <li class="nav-item"><a href="Favourite.html" class="nav-link px-2 text-muted">Favourite</a></li>
+            <li class="nav-item"><a href="Authors.html" class="nav-link px-2 text-muted">Authors</a></li>
+            <li class="nav-item"><a href="https://openlibrary.org/" class="nav-link px-2 text-muted">Recommended</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+          </ul>
+          <p class="text-center text-muted">© 2022 BookStore, Inc</p>
+        </footer>
+      </div>
+      
+  </body>
+</html>
